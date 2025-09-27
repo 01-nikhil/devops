@@ -18,7 +18,7 @@ jobs:
           node-version: 16
 
       - name: Installing deps
-        uses: npm install 
+        run: npm install 
     
       - name: Testing 
-        uses: npm test
+        run: npm test
